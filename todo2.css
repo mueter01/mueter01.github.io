@@ -1,25 +1,25 @@
-section#high {
+table#high {
   background-color: red;
 }
-li>#high {
+li#high {
   color: white;
 }
-section#medium {
+table#medium {
   background-color:orange;
 }
-li>#medium {
+li#medium {
   color: brown;
 }
-section#low {
+table#low {
   background-color: gray;
 }
-li>#low {
+li#low {
   color: black;
 }
-section#done {
+table#done {
   background-color: black;
 }
-#done>li {
+li#done {
   color: blue;
   text-decoration: line-through;
 }
