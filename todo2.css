@@ -27,8 +27,11 @@
   color: cyan;
 }
 section {
-  width: 300px;
+  width: 1000px;
   height: 400px;
   overflow: auto;
   margin: 10 10 10 10;
+}
+li {
+  font-size: 25;
 }
