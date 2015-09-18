@@ -1,25 +1,25 @@
-table #high {
+.high {
   background-color: red;
 }
-li #high {
+.high li {
   color: white;
 }
-table #medium {
+.medium {
   background-color:orange;
 }
-li #medium {
+.medium li {
   color: brown;
 }
-table #low {
+.low {
   background-color: gray;
 }
-li #low {
+.low li {
   color: black;
 }
-table #done {
+.done {
   background-color: black;
 }
-li #done {
+.done li {
   color: cyan ;
   text-decoration: line-through;
 }
