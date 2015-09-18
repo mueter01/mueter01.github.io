@@ -36,14 +36,18 @@
   color: cyan;
 }
 section {
-  width: 1000px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
   overflow: auto;
   margin: 10 10 10 10;
+  float: right
 }
 li {
   font-size: 25;
 }
 th {
   font-size: 30;
+}
+footer {
+  clear: both;
 }
