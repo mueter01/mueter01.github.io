@@ -23,3 +23,6 @@
   color: cyan ;
   text-decoration: line-through;
 }
+.done th {
+  color: cyan;
+}
