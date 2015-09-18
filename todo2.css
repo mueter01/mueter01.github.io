@@ -4,10 +4,16 @@
 .high li {
   color: white;
 }
+.high th {
+  color:white;
+}
 .medium {
   background-color:orange;
 }
 .medium li {
+  color: brown;
+}
+.medium th {
   color: brown;
 }
 .low {
@@ -15,6 +21,9 @@
 }
 .low li {
   color: black;
+}
+.low th {
+  color: black
 }
 .done {
   background-color: black;
