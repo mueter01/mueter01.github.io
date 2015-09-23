@@ -1,4 +1,9 @@
-head {
-  align: center;
+nav {
+  background-color: chartreuse;
+  height: 100px;
+  position: fixed
+  width: 100%;
 }
-
+header {
+  border: 20px;
+}
