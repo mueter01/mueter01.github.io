@@ -17,9 +17,9 @@ section {
   float: left;
   width: 50%;
 }
-#left {
+section#left {
   background-color: teal;
 }
-#right {
+section#right {
   background-color: yellow;
 }
