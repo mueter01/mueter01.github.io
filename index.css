@@ -8,8 +8,18 @@ body {
 border: 20px;
 }
 footer {
-  background-color: chartreuse
+  background-color: chartreuse;
   height: 100px;
   width: 100%;
   clear: both;
+}
+section {
+  float: left;
+  width: 50%;
+}
+#left {
+  background-color: teal;
+}
+#right {
+  background-color: yellow;
 }
