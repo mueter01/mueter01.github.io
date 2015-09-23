@@ -4,6 +4,12 @@ nav {
   position: fixed
   width: 100%;
 }
-header {
-  border: 20px;
+body {
+border: 20px;
+}
+footer {
+  background-color: chartreuse
+  height: 100px;
+  width: 100%;
+  clear: both;
 }
