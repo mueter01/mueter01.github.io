@@ -23,12 +23,12 @@ section#left {
 section#right {
   background-color: yellow;
 }
-section img{
+section img {
   position: relative;
   top: 10px;
-  left: 30px;
+  left: 100px;
 }
-section p{
+section p {
   position: relative;
   left: 60px;
 }
