@@ -23,3 +23,8 @@ section#left {
 section#right {
   background-color: yellow;
 }
+section img{
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
