@@ -25,10 +25,9 @@ section#right {
 }
 section img {
   position: relative;
-  top: 10px;
-  left: 220px;
+  display: block;
+  margin: auto;
 }
 section p {
-  position: relative;
-  left: 250px;
+  text-align: center;
 }
