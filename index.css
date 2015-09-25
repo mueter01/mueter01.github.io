@@ -1,5 +1,5 @@
 nav {
-  background-color: chartreuse;
+  background-color: 2d8632;
   height: 100px;
   position: fixed
   width: 100%;
@@ -8,7 +8,7 @@ body {
 border: 30px;
 }
 footer {
-  background-color: chartreuse;
+  background-color: aa3c39;
   height: 100px;
   width: 100%;
   clear: both;
@@ -18,10 +18,10 @@ section {
   width: 50%;
 }
 section#left {
-  background-color: teal;
+  background-color: ffacaa;
 }
 section#right {
-  background-color: yellow;
+  background-color: 86c98a;
 }
 section img {
   position: relative;
