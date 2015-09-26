@@ -1,12 +1,12 @@
 nav {
-  background-color: 2d8632;
-  height: 100px;
-  position: fixed
-  width: 100%;
+ background-color: 2d8632;
+ height: 100px;
+ position: fixed
+ width: 100%;
 }
 nav ul {
-  list-style-type: none;
-  display: inline;
+ list-style-type: none;
+ display: inline;
 }
 nav div {
  display: block;
@@ -25,43 +25,43 @@ div#navdiv3 {
  top:-70px;
 }
 nav a {
-  color: 004304;
-  font-size: 20;
+ color: 004304;
+ font-size: 20;
 }
 body {
-border: 30px;
+ border: 30px;
 }
 footer {
-  background-color: aa3c39;
-  height: 100px;
-  width: 100%;
-  clear: both;
+ background-color: aa3c39;
+ height: 100px;
+ width: 100%;
+ clear: both;
 }
 section {
-  float: left;
-  width: 50%;
+ float: left;
+ width: 50%;
 }
 section#left {
-  background-color: ffacaa;
+ background-color: ffacaa;
 }
 section#left p {
-  color: 550200;
-  font-size: 20
+ color: 550200;
+ font-size: 20
 }
 section#right {
-  background-color: 86c98a;
+ background-color: 86c98a;
 }
 section#right a {
-  color: 004304;
+ color: 004304;
 }
 section img {
-  position: relative;
-  display: block;
-  margin: auto;
+ position: relative;
+ display: block;
+ margin: auto;
 }
 section p {
-  text-align: center;
+ text-align: center;
 }
 footer p {
-  color: 550200;
+ color: 550200;
 }
