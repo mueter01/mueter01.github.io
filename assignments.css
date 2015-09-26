@@ -1,0 +1,31 @@
+nav {
+ background-color: 2d8632;
+ height: 100px;
+ position: fixed;
+ width: 100%;
+ z-index: 3;
+}
+nav ul {
+ list-style-type: none;
+ display: inline;
+}
+nav div {
+ display: block;
+ position: relative;
+}
+div#navdiv1 {
+ left: 20px;
+ top: -10px;
+}
+div#navdiv2 {
+ left: 33%;
+ top: -60px;
+}
+div#navdiv3 {
+ left: 66%;
+ top:-80px;
+}
+nav a {
+ color: 004304;
+ font-size: 20;
+}
