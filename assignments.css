@@ -29,3 +29,20 @@ nav a {
  color: 004304;
  font-size: 20;
 }
+body {
+ border: 1px;
+ margin: 0px;
+}
+
+footer {
+ background-color: aa3c39;
+ height: 100px;
+ width: 100%;
+ clear: both;
+}
+footer p {
+ color: 550200;
+ position: relative;
+ top: 10px;
+ left: 10px;
+}
