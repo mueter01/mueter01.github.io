@@ -3,6 +3,7 @@ nav {
  height: 100px;
  position: fixed;
  width: 100%;
+ z-index: 3;
 }
 nav ul {
  list-style-type: none;
@@ -29,7 +30,7 @@ nav a {
  font-size: 20;
 }
 body {
- border: 3px;
+ border: 1px;
 }
 footer {
  background-color: aa3c39;
@@ -41,6 +42,7 @@ section {
  float: left;
  width: 50%;
  height: auto;
+ margin-top: 100px;
 }
 section#left {
  background-color: ffacaa;
@@ -52,6 +54,7 @@ section#left img {
  margin: auto;
  height: auto;
  width: auto;
+ z-index: 2;
 }
 section#left p {
  position: relative;
@@ -73,6 +76,7 @@ section#right a {
  top: 400px;
  color: 004304;
  font-size: 30;
+ z-index; 2;
 }
 footer p {
  color: 550200;
