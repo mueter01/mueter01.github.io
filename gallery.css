@@ -1,0 +1,55 @@
+nav {
+ background-color: 2d8632;
+ height: 100px;
+ position: fixed;
+ width: 100%;
+ z-index: 3;
+}
+nav ul {
+ list-style-type: none;
+ display: inline;
+}
+nav div {
+ display: block;
+ position: relative;
+}
+div#navdiv1 {
+ left: 20px;
+ top: -10px;
+}
+div#navdiv2 {
+ left: 33%;
+ top: -60px;
+}
+div#navdiv3 {
+ left: 66%;
+ top:-80px;
+}
+nav a {
+ color: 004304;
+ font-size: 20;
+}
+body {
+ border: 1px;
+ margin: 0px;
+}
+section {
+    position: relative;
+    float: left;
+    height: 79%;
+    width: 100%;
+    margin-top: 100px;
+    background-color: 86c98a;
+
+footer {
+ background-color: aa3c39;
+ height: 100px;
+ width: 100%;
+ clear: both;
+}
+footer p {
+ color: 550200;
+ position: relative;
+ top: 10px;
+ left: 10px;
+}
