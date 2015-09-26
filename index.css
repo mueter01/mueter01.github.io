@@ -4,6 +4,10 @@ nav {
   position: fixed
   width: 100%;
 }
+nav ul{
+  list-style-type: none;
+  display: inline;
+}
 body {
 border: 30px;
 }
