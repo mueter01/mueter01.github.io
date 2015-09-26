@@ -33,7 +33,25 @@ body {
  border: 1px;
  margin: 0px;
 }
-
+section {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    background-color: 86c98a;
+}
+table {
+    position: relative;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ffacaa;
+    border-color; 550200;
+}
+th,td{
+    color: 550200;
+}
 footer {
  background-color: aa3c39;
  height: 100px;
