@@ -29,7 +29,7 @@ nav a {
  font-size: 20;
 }
 body {
- border: 30px;
+ border: 3px;
 }
 footer {
  background-color: aa3c39;
@@ -40,6 +40,7 @@ footer {
 section {
  float: left;
  width: 50%;
+ height: auto;
 }
 section#left {
  background-color: ffacaa;
@@ -64,8 +65,17 @@ section#right {
  background-color: 86c98a;
 }
 section#right a {
+ display: block;
+ position: relative;
+ left: 43%;
+ top: 400px;
  color: 004304;
+ font-size: 30;
+
 }
 footer p {
  color: 550200;
+ position: relative;
+ top: 10px;
+ left: 10px;
 }
