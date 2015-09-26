@@ -63,6 +63,8 @@ section#left p {
 }
 section#right {
  background-color: 86c98a;
+ height: 823px;
+ box-sizing: border-box;
 }
 section#right a {
  display: block;
@@ -71,7 +73,6 @@ section#right a {
  top: 400px;
  color: 004304;
  font-size: 30;
-
 }
 footer p {
  color: 550200;
