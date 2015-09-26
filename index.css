@@ -4,9 +4,13 @@ nav {
   position: fixed
   width: 100%;
 }
-nav ul{
+nav ul {
   list-style-type: none;
   display: inline;
+}
+nav div {
+ display: block;
+ position: relative;
 }
 body {
 border: 30px;
