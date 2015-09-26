@@ -36,7 +36,7 @@ body {
 section {
     position: relative;
     float: left;
-    height: 100%;
+    height: 79%;
     width: 100%;
     margin-top: 100px;
     background-color: 86c98a;
@@ -49,7 +49,7 @@ table {
     background-color: ffacaa;
     border-color; 550200;
 }
-th,td{
+section th,td,a{
     color: 550200;
 }
 footer {
