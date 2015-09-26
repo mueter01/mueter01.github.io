@@ -44,23 +44,27 @@ section {
 section#left {
  background-color: ffacaa;
 }
+section#left img {
+ top: 15px;
+ position: relative;
+ display: block;
+ margin: auto;
+ height: auto;
+ width: auto;
+}
 section#left p {
+ position: relative;
+ text-align: center;
+ display: block;
+ padding: 20px;
  color: 550200;
- font-size: 20
+ font-size: 20;
 }
 section#right {
  background-color: 86c98a;
 }
 section#right a {
  color: 004304;
-}
-section img {
- position: relative;
- display: block;
- margin: auto;
-}
-section p {
- text-align: center;
 }
 footer p {
  color: 550200;
