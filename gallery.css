@@ -39,18 +39,21 @@ section {
     height: 100%;
     width: 100%;
     margin-top: 100px;
-    padding-bottom: 400px;
     background-color: 86c98a;
 }
 section h1 {
     text-align: center;
     color: 004304;
 }
+img {
+    margin: 20px;
+}
 footer {
  background-color: aa3c39;
  height: 100px;
  width: 100%;
  clear: both;
+ position: relative;
 }
 footer p {
  color: 550200;
