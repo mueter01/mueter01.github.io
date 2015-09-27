@@ -37,9 +37,22 @@ section {
     position: relative;
     float: left;
     height-min: 100%;
-    width-min: 100%;
+    width: 100%;
     margin-top: 100px;
     background-color: 86c98a;
+}
+section h1 {
+    color: 004304;
+    text-align: center;
+}
+section p {
+    color: 004304;
+    position: relative;
+    padding: 10px;
+}
+section ul {
+    color: 004304;
+    position: relative;
 }
 footer {
  background-color: aa3c39;
