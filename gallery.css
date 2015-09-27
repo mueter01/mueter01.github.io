@@ -37,7 +37,7 @@ section {
     position: relative;
     float: left;
     height-min: 100%;
-    width: 100%;
+    width-min: 100%;
     margin-top: 100px;
     background-color: 86c98a;
 }
@@ -46,12 +46,12 @@ section h1 {
     color: 004304;
 }
 img {
-    margin: 20px;
+    margin: 10px;
 }
 footer {
  background-color: aa3c39;
  height: 100px;
- width: 100%;
+ width-min: 100%;
  clear: both;
  position: relative;
 }
