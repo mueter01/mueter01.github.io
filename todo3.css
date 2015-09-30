@@ -1,0 +1,53 @@
+.high {
+  background-color: red;
+}
+.high li {
+  color: white;
+}
+.high th {
+  color:white;
+}
+.medium {
+  background-color:orange;
+}
+.medium li {
+  color: brown;
+}
+.medium th {
+  color: brown;
+}
+.low {
+  background-color: gray;
+}
+.low li {
+  color: black;
+}
+.low th {
+  color: black
+}
+.done {
+  background-color: black;
+}
+.done li {
+  color: cyan ;
+  text-decoration: line-through;
+}
+.done th {
+  color: cyan;
+}
+section {
+  width: 600px;
+  height: 300px;
+  overflow: auto;
+  margin: 10 10 10 10;
+  float: right
+}
+li {
+  font-size: 25;
+}
+th {
+  font-size: 30;
+}
+footer {
+  clear: both;
+}
