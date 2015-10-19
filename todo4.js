@@ -15,6 +15,6 @@ newTask = function() {
 
 addNewTask = function(newTask) {
   var taskList;
-  taskList = document.body.querySelector("#list");
+  taskList = document.body.querySelector("#taskList");
   taskList.appendChild(newTask());
 }
