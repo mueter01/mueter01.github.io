@@ -12,6 +12,7 @@ newTask = function() {
   newLi.className = priority.value;
   newLi.appendChild(text);
   newLi.appendChild(box);
+  return newLi;
 }
 
 addNewTask = function(newTask) {
@@ -20,7 +21,6 @@ addNewTask = function(newTask) {
   taskList.appendChild(newTask());
 }
 boxChecked = function() {
-  var checkbox;
   this.parentNode.classList.add("done");
   //uncheck
 }
