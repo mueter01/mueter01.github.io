@@ -1,13 +1,14 @@
-var input, priority;
-input = document.body.querySelector("#input");
+var myInput, priority;
+myInput = document.body.querySelector("#input");
 priority = document.body.querySelector("#priority");
 
 newTask = function() {
   var newLi, text, box;
   newLi = document.createElement("li");
-  text = document.createTextNode("input");
-  box = document.createElement("checkbox");
-  document.getElementById("newLi").className=priority;
+  text = document.createTextNode("myInput");
+  box = document.createElement("input");
+  box.type = "checkbox";
+  newLi.className = priority.value;
   newLi.appendChild(text);
   newLi.appendChild(box);
 }
