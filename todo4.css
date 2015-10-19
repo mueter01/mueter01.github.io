@@ -41,3 +41,16 @@ footer label {
 footer select {
     margin-left: 20px;
 }
+.High {
+    color: red;
+}
+.Medium {
+    color: orange;
+}
+.Low {
+    color: blue;
+}
+.done {
+    color: gray;
+    text-decoration: line-through;
+}
