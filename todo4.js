@@ -3,7 +3,7 @@ myInput = document.body.querySelector("#input");
 priority = document.body.querySelector("#priority");
 
 newTask = function() {
-  var newLi, text, box;
+  var newLi, text, box, taskList;
   newLi = document.createElement("li");
   text = document.createTextNode("myInput");
   box = document.createElement("input");
@@ -12,15 +12,11 @@ newTask = function() {
   newLi.className = priority.value;
   newLi.appendChild(text);
   newLi.appendChild(box);
-  return newLi;
+  taskList = document.body.querySelector("#taskList");
+  taskList.appendChild(newLi);
 }
 
-addNewTask = function(newTask) {
-  var taskList;
-  taskList = document.body.querySelector("#taskList");
-  taskList.appendChild(newTask());
-}
 boxChecked = function() {
-  this.parentNode.classList.add("done");
+  this.parentNode.className = "done";
   //uncheck
 }
