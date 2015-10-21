@@ -10,8 +10,8 @@ newTask = function() {
   box.type = "checkbox";
   box.onclick = boxChecked;
   newLi.className = priority.value;
-  newLi.appendChild(text);
   newLi.appendChild(box);
+  newLi.appendChild(text);
   taskList = document.body.querySelector("#taskList");
   taskList.appendChild(newLi);
   localSave();
