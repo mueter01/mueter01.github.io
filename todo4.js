@@ -17,6 +17,18 @@ newTask = function() {
 }
 
 boxChecked = function() {
-  this.parentNode.className = "done";
-  //uncheck
+  if (this.checked) {
+    this.parentNode.className = "done";
+  }
+  else {
+    this.parentNode.classList.remove("done");
+  }
 }
+//doneTask = function() {
+//  if (this.checked) {
+//    this.parentNode.className = "done";
+//  } 
+//  else {
+//    this.parent.Node.classList.remove("done");
+//  }
+//<script type="text/javascript" src="http://bnmnetp.github.io/CS130/listsaver.js">
