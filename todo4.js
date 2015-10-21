@@ -5,7 +5,7 @@ priority = document.body.querySelector("#priority");
 newTask = function() {
   var newLi, text, box, taskList;
   newLi = document.createElement("li");
-  text = document.createTextNode(myInput);
+  text = document.createTextNode(myInput.value);
   box = document.createElement("input");
   box.type = "checkbox";
   box.onclick = boxChecked;
