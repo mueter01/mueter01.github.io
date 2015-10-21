@@ -8,7 +8,7 @@ newTask = function() {
   text = document.createTextNode("myInput");
   box = document.createElement("input");
   box.type = "checkbox";
-  box.onClick(boxChecked());
+  box.onclick = boxChecked;
   newLi.className = priority.value;
   newLi.appendChild(text);
   newLi.appendChild(box);
