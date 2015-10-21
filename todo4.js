@@ -26,3 +26,4 @@ boxChecked = function() {
   }
   localSave();
 }
+
