@@ -17,6 +17,6 @@ newTask = function() {
 }
 
 boxChecked = function() {
-  this.parentNode.className("done");
+  this.parentNode.className = "done";
   //uncheck
 }
