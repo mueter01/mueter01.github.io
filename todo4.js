@@ -18,7 +18,7 @@ newTask = function() {
 
 boxChecked = function() {
   if (this.checked) {
-    this.parentNode.className = "done";
+    this.parentNode.classList.add("done");
   }
   else {
     this.parentNode.classList.remove("done");
@@ -31,4 +31,6 @@ boxChecked = function() {
 //  else {
 //    this.parent.Node.classList.remove("done");
 //  }
-//<script type="text/javascript" src="http://bnmnetp.github.io/CS130/listsaver.js">
+//<script type="text/javascript" src="http://bnmnetp.github.io/CS130/listsaver.js"></script>
+//localSave("#tasklist")
+//restoreList("#tasklist", boxChecked)
