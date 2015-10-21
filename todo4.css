@@ -41,6 +41,9 @@ footer label {
 footer select {
     margin-left: 20px;
 }
+ul {
+    list-style-type: none;
+}
 .High {
     color: red;
 }
