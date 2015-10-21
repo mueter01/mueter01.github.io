@@ -14,6 +14,7 @@ newTask = function() {
   newLi.appendChild(box);
   taskList = document.body.querySelector("#taskList");
   taskList.appendChild(newLi);
+  localSave();
 }
 
 boxChecked = function() {
@@ -23,14 +24,10 @@ boxChecked = function() {
   else {
     this.parentNode.classList.remove("done");
   }
+  localSave();
 }
-//doneTask = function() {
-//  if (this.checked) {
-//    this.parentNode.className = "done";
-//  } 
-//  else {
-//    this.parent.Node.classList.remove("done");
-//  }
-//<script type="text/javascript" src="http://bnmnetp.github.io/CS130/listsaver.js"></script>
-//localSave("#tasklist")
-//restoreList("#tasklist", boxChecked)
+
+<script type="text/javascript" src="http://bnmnetp.github.io/CS130/listsaver.js"></script>
+
+localSave("tasklist");
+restoreList("tasklist", boxChecked);
